@@ -1,0 +1,151 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CSS */
+
+html, body {
+    height: 100%;
+}
+  
+body {
+  background-color: rgb(163, 211, 255);
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+h1 {
+  font-family: monospace;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+h2 {
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 3rem;
+  padding-bottom: 0.7rem;
+  padding-top: 0.1rem;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+.mainheader {
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 3rem;
+  padding-bottom: 0.7rem;
+  padding-top: 0.1rem;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+button {
+  font-family: monospace;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  border-color: white;
+  width: 15rem;
+  padding: 10px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+input {
+  font-family: monospace;
+  font-size: 1rem;
+  padding: 1rem;
+  border-color: rgb(216, 216, 216);
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+.madlibscontainer {
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 1rem;
+  padding-bottom: 0.7rem;
+  padding-top: 0.1rem;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+.form {
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 1rem;
+  padding-bottom: 0.9rem;
+  width: 80rem;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
